@@ -1,4 +1,25 @@
 # " and # not ffound because bug founding
+print("don't using have bug")
+print("I'll try to fix it if time permits")
+print("don't using have bug")
+print("I'll try to fix it if time permits")
+print("don't using have bug")
+print("I'll try to fix it if time permits")
+print("don't using have bug")
+print("I'll try to fix it if time permits")
+print("don't using have bug")
+print("I'll try to fix it if time permits")
+print("don't using have bug")
+print("I'll try to fix it if time permits")
+print("don't using have bug")
+print("I'll try to fix it if time permits")
+print("don't using have bug")
+print("I'll try to fix it if time permits")
+print("don't using have bug")
+print("I'll try to fix it if time permits")
+print("don't using have bug")
+print("I'll try to fix it if time permits")
+
 def encode(text):
     text = text.replace("A", "#0#" )
     text = text.replace("a", "#1#" )
@@ -52,7 +73,7 @@ def encode(text):
     text = text.replace("y", "#49#" )
     text = text.replace("Z", "#50#" )
     text = text.replace("z", "#51#" )
-    """
+    """ # tamir için incelemede
     text = text.replace("0", "#52#" )
     text = text.replace("1", "#53#" )
     text = text.replace("2", "#54#" )
@@ -63,6 +84,7 @@ def encode(text):
     text = text.replace("7", "#59#" )
     text = text.replace("8", "#60#" )
     text = text.replace("9", "#61#" )
+    """
     """
     text = text.replace("=", "#62#" )
     text = text.replace("!", "#63#" )
@@ -92,6 +114,7 @@ def encode(text):
     text = text.replace("é", "#88#" )
     text = text.replace("<", "#89#" )
     text = text.replace(">", "#90#" )
+    """# have bug, tamir için incelemey alındı
     return text
 print(encode("hello"))
 def decode(tedo):

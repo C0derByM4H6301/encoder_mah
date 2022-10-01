@@ -73,6 +73,7 @@ def encode(text):
     text = text.replace("y", "#49#" )
     text = text.replace("Z", "#50#" )
     text = text.replace("z", "#51#" )
+    text = tex.replace("0", "~")
     """ # tamir için incelemede
     text = text.replace("0", "#52#" )
     text = text.replace("1", "#53#" )
@@ -171,7 +172,7 @@ def decode(tedo):
     tedo = tedo.replace('#50#', "Z" )
     tedo = tedo.replace('#51#', "z" )
 
-    #tedo = tedo.replace('~ ~', "0" )
+    tedo = tedo.replace('~', "0" )
     """
     tedo = tedo.replace('#53#', "1" )
     tedo = tedo.replace('#54#', "2" )

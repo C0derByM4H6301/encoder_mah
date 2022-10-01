@@ -171,7 +171,7 @@ def decode(tedo):
     tedo = tedo.replace('#50#', "Z" )
     tedo = tedo.replace('#51#', "z" )
 
-    tedo = tedo.replace('~ ~', "0" )
+    #tedo = tedo.replace('~ ~', "0" )
     """
     tedo = tedo.replace('#53#', "1" )
     tedo = tedo.replace('#54#', "2" )
@@ -183,7 +183,7 @@ def decode(tedo):
     tedo = tedo.replace('#60#', "8" )
     tedo = tedo.replace('#61#', "9" )
     """
-
+    """
     tedo = tedo.replace('#62#', "=" )
     tedo = tedo.replace('#63#', "!" )
     tedo = tedo.replace('#64#', "?" )
@@ -212,6 +212,7 @@ def decode(tedo):
     tedo = tedo.replace('#88#', "é" )
     tedo = tedo.replace('#89#', "<" )
     tedo = tedo.replace('#90#', ">" )
+    """
     return tedo
 exec(decode(encode("print('hello')")))# garip bir payload
 def test():

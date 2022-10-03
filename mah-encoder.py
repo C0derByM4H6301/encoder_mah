@@ -1,4 +1,12 @@
-
+from termcolor import colored
+import pyfiglet
+def cool_banner_print(text="banner"):
+    text = str(text)
+    cbprint = pyfiglet.figlet_format(text)
+    print(colored(cbprint, "blue", attrs=["blink"]))
+cool_banner_print("mah-encoder")
+print(colored("please using payload: python/meterpreter/reverse_tcp", "yellow"))
+print("The interactive mode has not been made yet. If done, it will most likely be a module to the mah-framework.\n let me know. Greetings and respect to the commander.\n Sometimes the encoder makes 'c' to 'd' due to a compilation error in my msphenom, but normally it's fine.","red")
 def rep(text):
     text = text.replace("A"  , "/-1-/")
     text = text.replace("a"  , "/-2-/")
@@ -136,3 +144,6 @@ def test():
     dect = de_rep(f2.read())
     f3 = open("payload.txt","w")
     f3.write(dect)
+
+
+

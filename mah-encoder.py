@@ -1,3 +1,4 @@
+
 def rep(text):
     text = text.replace("A"  , "/-1-/")
     text = text.replace("a"  , "/-2-/")
